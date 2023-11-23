@@ -50,6 +50,7 @@ Please follow the [installation procedure](#installation--usage) and then run th
 
 ```python
 
+
 import time
 import openapi_client
 from openapi_client.rest import ApiException
@@ -58,11 +59,11 @@ from pprint import pprint
 # Defining the host is optional and defaults to https://localhost:7207
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "https://localhost:7207"
+    host = "https://localhost:7207" #Replace with your url.
 )
 
 
-
+configuration.verify_ssl = False
 # Enter a context with an instance of the API client
 with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
