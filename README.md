@@ -104,6 +104,10 @@ Endpoints do not require authorization.
 
 ## Author
 
+- [Devi Prakash](https://github.com/dprakash2101)
+
+
+
 
 
 
